@@ -1,0 +1,31 @@
+@use "../../styles/variables/" as *;
+
+section {
+  max-width: 12em;
+  min-width: 12em;
+  min-height: 12em;
+  max-height: 12em;
+  border: 0.5px solid #ddd;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+  .icon-wrapper {
+    flex: 5;
+    mat-icon {
+      color: #0069de;
+      transform: scale(3.5);
+    }
+  }
+
+  .text-wrapper {
+    flex: 1;
+    p {
+      font-size: larger;
+      color: #0069de;
+    }
+  }
+}
+
+section:hover {
+  background-color: rgb(244, 244, 244);
+}

@@ -1,0 +1,20 @@
+@use "../../styles/variables/" as *;
+
+.profile-image {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  margin-left: 10px;
+
+  p {
+    margin: 0;
+    line-height: 16px;
+  }
+  .user-name {
+    font-weight: bold;
+  }
+}

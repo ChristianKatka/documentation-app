@@ -1,0 +1,23 @@
+@use "../../styles/variables/" as *;
+
+.icon-wrapper {
+  flex: 1;
+  background-color: var(--warm-info);
+  border-radius: 5px 0px 0px 5px;
+
+  mat-icon {
+    padding-top: 15px;
+    color: var(--greyish);
+  }
+}
+
+.text-wrapper {
+  flex: 6;
+  background-color: var(--warm-info);
+  padding: 1rem;
+  border-radius: 0px 5px 5px 0px;
+
+  span {
+    color: var(--greyish);
+  }
+}
