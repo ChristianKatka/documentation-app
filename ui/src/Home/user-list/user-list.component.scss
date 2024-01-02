@@ -1,0 +1,24 @@
+@use "../../styles/variables/" as *;
+
+section {
+  padding: 0.5rem 0;
+}
+
+.profile-image {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  margin: 0;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.money-value {
+  margin: 0;
+  margin-right: 10px;
+  font-weight: bold;
+}

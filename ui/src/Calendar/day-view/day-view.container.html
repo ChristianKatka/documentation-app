@@ -1,0 +1,6 @@
+<main *ngIf="event$ | async as event">
+  <app-day-view
+    [event]="event"
+    [timeNowLineTopPixelsValue]="timeNowLineTopPixelsValue$ | async"
+  ></app-day-view>
+</main>

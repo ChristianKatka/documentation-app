@@ -1,0 +1,43 @@
+<div class="logo-wrapper flex-row align-center-center">
+  <h1>Calendar</h1>
+</div>
+
+<mat-divider></mat-divider>
+<section>
+  <div
+    matRipple
+    class="flex-row aic view-selection-button"
+    (click)="closeSidenav.emit()"
+  >
+    <mat-icon>calendar_view_day</mat-icon>
+    <span>Day</span>
+  </div>
+  <div
+    matRipple
+    class="flex-row aic view-selection-button"
+    (click)="closeSidenav.emit()"
+  >
+    <mat-icon>calendar_view_week</mat-icon>
+    <span>Week</span>
+  </div>
+  <div
+    matRipple
+    class="flex-row aic view-selection-button"
+    (click)="closeSidenav.emit()"
+    style="margin-bottom: 10px"
+  >
+    <mat-icon>calendar_view_month</mat-icon>
+    <span>month</span>
+  </div>
+</section>
+
+<mat-divider></mat-divider>
+
+<section class="flex-row aic profile-wrapper">
+  <img
+    src="assets/images/profile2.jpg"
+    alt="profile-image"
+    class="profile-image"
+  />
+  <span>Christian Kätkä</span>
+</section>

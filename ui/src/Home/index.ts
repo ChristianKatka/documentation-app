@@ -8,6 +8,9 @@ import { ProfileImageWithText1Component } from './profile-image-with-text-1/prof
 import { TextListComponent } from './text-list/text-list.component';
 import { SideNavbarComponent } from './side-navbar/side-navbar.component';
 import { IconButtonWithTextComponent } from './icon-button-with-text/icon-button-with-text.component';
+import { SelectFileComponent } from './select-file/select-file.component';
+import { UserListComponent } from './user-list/user-list.component';
+import { OnlineShopComponent } from './online-shop/online-shop.component';
 
 export const components = [
   OpenSnackbarButtonComponent,
@@ -20,4 +23,7 @@ export const components = [
   TextListComponent,
   SideNavbarComponent,
   IconButtonWithTextComponent,
+  SelectFileComponent,
+  UserListComponent,
+  OnlineShopComponent,
 ];
